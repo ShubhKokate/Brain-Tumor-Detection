@@ -9,17 +9,17 @@ The model is trained and evaluated to classify brain images into **tumor vs. non
 ## 📂 Repository Structure (Suggested)
 ```
 /
-├── data/
-│   ├── train/
-│   ├── valid/
-│   └── test/
+├── app.py
+├── model.py
 ├── notebooks/
 │   └── brain_tumor_detection.ipynb
 ├── models/
-│   └── best_model.pth
-├── utils.py
+│   └── weigths.pt
+├── config.json
+├── index.html
 ├── requirements.txt
-└── README.md
+├── README.md
+├── for data set use the below kaggle dataset link
 ```
 - **data/** – holds image datasets (training, validation, testing).  
 - **notebooks/** – main notebook implementing preprocessing, training, and evaluation.  
