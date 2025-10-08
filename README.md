@@ -76,7 +76,7 @@ You should include in the README or notebook:
 - Classification reports (precision, recall, F1-score)
   ![report](https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/report.png)
    
-- Sample predictions on test images  
+- Sample predictions on test images Accuracy got 97%
 
 ---
 
@@ -87,6 +87,7 @@ You should include in the README or notebook:
 - Hyperparameter tuning (learning rates, batch sizes, optimizers)  
 - Cross‑validation  
 - Use **GradCAM** or explainability methods to interpret model decisions  
-- Package as a **web app or API** (Flask, FastAPI) for deployment  
+- Package as a **web app or API** (Flask, FastAPI) for deployment
+- For contribution contact through mail (shubhkokate16@gmail.com)
 
 ---
