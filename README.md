@@ -24,7 +24,7 @@ The model is trained and evaluated to classify brain images into **tumor vs. non
 - **data/** – holds image datasets [Kaggle Dataset](https://www.kaggle.com/code/subhdrabaipatil/brain-tumor-detection-by-cnn-pytorch/input?select=Brain+Tumor+Data+Set)
 - **notebooks/** – main notebook implementing preprocessing, training, and evaluation.  
 - **models/** – saved model checkpoint(s).  
-- **utils.py** – optional helper functions (e.g. data transforms, metrics).  
+- **app.py** – optional helper functions (e.g. data transforms, metrics).  
 - **requirements.txt** – Python dependencies.  
 - **README.md** – project documentation.  
 
