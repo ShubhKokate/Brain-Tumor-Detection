@@ -1,0 +1,8 @@
+{
+  "shape_in": [3, 256, 256],
+  "initial_filters": 8,
+  "num_fc1": 100,
+  "num_classes": 2,
+  "dropout_rate": 0.5
+}
+

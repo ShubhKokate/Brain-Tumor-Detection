@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>🧠 Brain Tumor Detection</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f8f9fa;
+      padding: 30px;
+    }
+    .container {
+      width: 400px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+      color: #333;
+    }
+    input[type=file] {
+      margin: 15px 0;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+    .result {
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #444;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🧠 Brain Tumor Detection</h1>
+    <form id="uploadForm" enctype="multipart/form-data">
+      <input type="file" name="file" accept="image/*" required><br>
+      <button type="submit">Predict</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script>
+    const form = document.getElementById('uploadForm');
+    const resultDiv = document.getElementById('result');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(form);
+      resultDiv.textContent = "⏳ Processing...";
+
+      const response = await fetch("/predict", {
+        method: "POST",
+        body: formData
+      });
+
+      const data = await response.json();
+      if (data.error) {
+        resultDiv.textContent = "❌ " + data.error;
+      } else {
+        resultDiv.textContent = `✅ Prediction: ${data.prediction} (Confidence: ${data.score.toFixed(2)})`;
+      }
+    });
+  </script>
+</body>
+</html>
+
