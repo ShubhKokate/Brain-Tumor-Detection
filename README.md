@@ -19,7 +19,7 @@ The model is trained and evaluated to classify brain images into **tumor vs. non
 ├── index.html
 ├── requirements.txt
 ├── README.md
-├── for data set use the below kaggle dataset link
+├── for data set use the below kaggle dataset link [Kaggle Dataset](https://www.kaggle.com/code/subhdrabaipatil/brain-tumor-detection-by-cnn-pytorch/input?select=Brain+Tumor+Data+Set)
 ```
 - **data/** – holds image datasets (training, validation, testing).  
 - **notebooks/** – main notebook implementing preprocessing, training, and evaluation.  
