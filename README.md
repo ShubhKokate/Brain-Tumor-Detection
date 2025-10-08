@@ -67,8 +67,8 @@ Typical dependencies include:
 ## 🧮 Results & Performance
 
 You should include in the README or notebook:
-- Training vs. validation loss/accuracy plots  
-- Confusion matrix  https://www.kaggleusercontent.com/kf/260804840/eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..xDSuz6jasw65Yv-QrVm3wQ.Y59OH4_bt2JzipS2vP_PSQl6nU285Or9Dg8T0sTnQulvBVNuCm2fdrvwWZ3X18taRVaH60nnRfM-3YXLgb-HuU9IcF9pO9Soqs9LnfP5Orpan2YWKLt5xQL6Eipdo9aAwLUEoqqnO8mv0TE0VwdPfbx8jBzg9K1DqEZsXO-yqxYIUQhN4q45EQVYBs3A9e1Ho9V39ikQbpF2ETBqp2J4EABjqjxc8WAgqsJTzFeKq_f9LCbGbiMf23ocG1tKsGoGbi78xXZIIkb6jmyH9ZTqPxO64ccNqeW9Us5kvvAAiUtESGWseRaqM9uObvgkpWLz3AONPDmzkN3buQQQYlz1ZL_ZTuO8bO0TS84rcNOyLAbWnuMhfpHJB2kjOTsJf7ogwnpo2G3Ys5H7g78lhgPhQs5X8EFGA7678IA3Z5ssXGZJfdTdDWmPoWZAqrJcZwYxkdHicSCrtlpUTt1dqNX2_s-RsKyTnBRW1ev-iUN5rwlautXt1CbVpHnrhP6aGIXbzCgyw9WWSXnjS2jPf5vmm1ar9nruPrM2SKbAMgkb2EV71v_poXGnZxIVRMSjn0U-FMn026-Of8i_N0BJPGeNA21GmLBOeUrVbVY7bg8VYiF3nmH6-zlOhr-Rem66fjRaeIFjoDjCcqUFcHdoFGBZ6ORBDNJ_gF4T-uYBUD3WQr0.9ESJ4SMGW5nDrw7s3mjlKg/__results___files/__results___48_0.png
+- [Training vs. validation loss/accuracy plots] (https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/accuracy_result.png) 
+- [Confusion matrix]  (https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/confusion_matrix.png)
 - Classification reports (precision, recall, F1-score)  
 - Sample predictions on test images  
 
