@@ -67,11 +67,14 @@ Typical dependencies include:
 ## 🧮 Results & Performance
 
 You should include in the README or notebook:
-- ![Training vs. validation loss/accuracy plots](https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/accuracy_result.png)
+- Training vs. validation loss/accuracy plots.
+- ![plot](https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/accuracy_result.png)
   
-- ![Confusion matrix](https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/confusion_matrix.png)
+- Confusion matrix
+- ![matrix](https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/confusion_matrix.png)
   
-- ![Classification reports (precision, recall, F1-score)](https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/report.png)
+- Classification reports (precision, recall, F1-score)
+- ![report](https://github.com/ShubhKokate/Brain-Tumor-Detection/blob/main/report.png)
    
 - Sample predictions on test images  
 
